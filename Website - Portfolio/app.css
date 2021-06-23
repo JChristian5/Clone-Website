@@ -1,0 +1,123 @@
+body {
+    font-family: "Lato","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav {
+    height: 70px;
+    background-color: white;
+}
+
+img {
+    margin: auto;
+}
+
+nav img {
+    height: 66px;
+    width: 100px;
+    margin-left: 50%;
+}
+
+#topBorder {
+    background-color: #8561A9;
+    color: white;
+    height: 1.85rem;
+    font-size: 12px;
+    padding-left: 10%;
+    padding-top: 6px;
+}
+
+.groups {
+    background-color: #8561A9;
+    color: white;
+    font-size: 25px;
+    margin: auto 2%;
+}
+
+.navbar-nav {
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+}
+
+.itemText {
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.price {
+    text-align: center;
+    font-weight: normal;
+    margin-top: -20px;
+}
+
+.seeMore {
+    background-color: #8561A9;
+    max-width: 120px;
+    height: 60px;
+    margin: auto;
+    margin-top: 25px;
+    border-color: #8561A9;
+}
+
+.seeMore:hover {
+    background-color: #6C4C8B;
+    border-color: #6C4C8B;
+    box-shadow: 10px 5px 5px black;
+}
+
+.social {
+    margin-right: 25px;
+}
+
+.bottomItems p {
+    margin: -3px 0;
+}
+
+.bottomItems p:hover {
+    color: #AD9594;
+}
+
+.submitButton {
+    color: #8561A9;
+    background: white;
+    border-color: #8561A9;
+}
+
+.submitButton:hover {
+    background: #8561A9;
+    color: white;
+    border-color: #8561A9;
+}
+
+.extraInfo {
+    background: #F5F5F5;
+}
+
+.featCategory {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    #topBorder {
+        background-color: #EAEAEA;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1600px) {
+    .groups {
+        margin: auto 1%;
+    }
+}
+
+@media (min-width: 1601px) {
+    .groups {
+        max-width: 1600px;
+        margin: auto;
+    }
+}
